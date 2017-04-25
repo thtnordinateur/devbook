@@ -69,6 +69,7 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/thtnordinateur/devbook.git
+  repo: git@github.com:thtnordinateur/devbook.git
   branch: gh-pages
+  name: thien.nt@COSA133
   message: deploy with hx
