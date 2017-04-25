@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Dev Book
 subtitle:
 description:
-author: John Doe
+author: thtnordinateur
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://thtnordinateur.github.io/devbook
-root: /
+root: /devbook/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -71,5 +71,4 @@ deploy:
   type: git
   repo: git@github.com:thtnordinateur/devbook.git
   branch: gh-pages
-  name: thien.nt@COSA133
   message: deploy with hx
