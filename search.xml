@@ -3,6 +3,45 @@
   
     
     <entry>
+      <title><![CDATA[How to specify local maven repository in command line?]]></title>
+      <url>/devbook/2018/04/14/How-to-specify-local-maven-repository-in-command-line/</url>
+      <content type="html"><![CDATA[<p>Normaly, we can update settings.xml to specify local repository for maven.<br>But we can also use cmd parameter below</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mvn -Dmaven.repo.local=$HOME/dev/other/repository clean install</div></pre></td></tr></table></figure>
+<p>For Window:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mvn -Dmaven.repo.local=C:\repository clean install</div></pre></td></tr></table></figure></p>
+<p>It is very userful for set up stable repository for offline usage, share with other developers,etc …</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> maven repository </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>/devbook/2017/08/18/useful-curl-commands/</url>
+      <content type="html"><![CDATA[<h1 id="Below-are-some-useful-cURL-commands"><a href="#Below-are-some-useful-cURL-commands" class="headerlink" title="Below are some useful cURL commands"></a>Below are some useful cURL commands</h1><h1 id="Test-your-knowledge"><a href="#Test-your-knowledge" class="headerlink" title="Test your knowledge"></a>Test your knowledge</h1><ul>
+<li>Q: What is the difference between <code>-o</code> and <code>-O</code> argument?</li>
+<li><p>A: <code>-o</code> is used to save to file with provided name. `-O’ is used if we want to used file name from input url.  </p>
+</li>
+<li><p>Q:</p>
+</li>
+<li>A: </li>
+</ul>
+<h1 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h1><ul>
+<li><a href="http://www.thegeekstuff.com/2012/04/curl-examples/?utm_source=feedburner" target="_blank" rel="external">15 Practical Linux cURL Command Examples (cURL Download Examples)</a></li>
+<li><a href="http://www.makeuseof.com/tag/get-curly-10-useful-things-can-curl" target="_blank" rel="external">10 userful cURL</a></li>
+<li><a href="http://www.makeuseof.com/tag/commandlinefu-amazing-collection-command-line-gems-linux-mac/" target="_blank" rel="external">commandlinefu</a></li>
+</ul>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Hello World]]></title>
       <url>/devbook/2017/08/18/jackson-cookbook/</url>
       <content type="html"><![CDATA[<h1 id="Resources-for-Jackson"><a href="#Resources-for-Jackson" class="headerlink" title="Resources for Jackson"></a>Resources for Jackson</h1><h2 id="Install-Jackson-using-Maven"><a href="#Install-Jackson-using-Maven" class="headerlink" title="Install Jackson using Maven"></a>Install Jackson using Maven</h2><p>Add this to your pom.xml file. We need three artifacts (but maybe we do not use all of them).<br>Jackson Core<br>Jackson Annotations<br>Jackson Databind</p>
@@ -29,27 +68,6 @@
             <tag> rest </tag>
             
         </tags>
-        
-    </entry>
-    
-    <entry>
-      <title></title>
-      <url>/devbook/2017/08/18/useful-curl-commands/</url>
-      <content type="html"><![CDATA[<h1 id="Below-are-some-useful-cURL-commands"><a href="#Below-are-some-useful-cURL-commands" class="headerlink" title="Below are some useful cURL commands"></a>Below are some useful cURL commands</h1><h1 id="Test-your-knowledge"><a href="#Test-your-knowledge" class="headerlink" title="Test your knowledge"></a>Test your knowledge</h1><ul>
-<li>Q: What is the difference between <code>-o</code> and <code>-O</code> argument?</li>
-<li><p>A: <code>-o</code> is used to save to file with provided name. `-O’ is used if we want to used file name from input url.  </p>
-</li>
-<li><p>Q:</p>
-</li>
-<li>A: </li>
-</ul>
-<h1 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h1><ul>
-<li><a href="http://www.thegeekstuff.com/2012/04/curl-examples/?utm_source=feedburner" target="_blank" rel="external">15 Practical Linux cURL Command Examples (cURL Download Examples)</a></li>
-<li><a href="http://www.makeuseof.com/tag/get-curly-10-useful-things-can-curl" target="_blank" rel="external">10 userful cURL</a></li>
-<li><a href="http://www.makeuseof.com/tag/commandlinefu-amazing-collection-command-line-gems-linux-mac/" target="_blank" rel="external">commandlinefu</a></li>
-</ul>
-]]></content>
-      
         
     </entry>
     
@@ -93,6 +111,21 @@
 
 ]]></content>
       
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Discuss batch file parameters]]></title>
+      <url>/devbook/2017/04/25/batch-file-parameters/</url>
+      <content type="html"><![CDATA[<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p><a href="https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/percent.mspx?mfr=true" target="_blank" rel="external">Using batch parameters</a></p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Command Line </tag>
+            
+        </tags>
         
     </entry>
     
@@ -142,21 +175,6 @@
       <url>/devbook/2017/04/25/Userful-Java-libraries/</url>
       <content type="html"></content>
       
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Discuss batch file parameters]]></title>
-      <url>/devbook/2017/04/25/batch-file-parameters/</url>
-      <content type="html"><![CDATA[<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p><a href="https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/percent.mspx?mfr=true" target="_blank" rel="external">Using batch parameters</a></p>
-]]></content>
-      
-        
-        <tags>
-            
-            <tag> Command Line </tag>
-            
-        </tags>
         
     </entry>
     
